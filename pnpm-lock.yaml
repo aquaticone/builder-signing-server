@@ -11,33 +11,18 @@ importers:
       '@polymarket/builder-signing-sdk':
         specifier: ^0.0.8
         version: 0.0.8
-      '@types/cors':
-        specifier: ^2.8.19
-        version: 2.8.19
-      '@types/express':
-        specifier: ^4.17.17
-        version: 4.17.23
-      '@types/node':
-        specifier: ^18.7.18
-        version: 18.19.130
       cors:
         specifier: ^2.8.5
         version: 2.8.5
+      dotenv:
+        specifier: ^16.0.2
+        version: 16.6.1
       express:
         specifier: ^4.18.2
         version: 4.21.2
       helmet:
         specifier: ^8.1.0
         version: 8.1.0
-      ts-node:
-        specifier: ^10.9.1
-        version: 10.9.2(@types/node@18.19.130)(typescript@5.9.3)
-      tslib:
-        specifier: ^2.8.1
-        version: 2.8.1
-      typescript:
-        specifier: ^5.0.0
-        version: 5.9.3
       zod:
         specifier: ^4.1.11
         version: 4.1.12
@@ -45,15 +30,21 @@ importers:
       '@types/chai':
         specifier: ^4.3.3
         version: 4.3.20
+      '@types/cors':
+        specifier: ^2.8.19
+        version: 2.8.19
+      '@types/express':
+        specifier: ^4.17.17
+        version: 4.17.23
       '@types/mocha':
         specifier: ^9.1.1
         version: 9.1.1
+      '@types/node':
+        specifier: ^18.7.18
+        version: 18.19.130
       chai:
         specifier: ^4.3.6
         version: 4.5.0
-      dotenv:
-        specifier: ^16.0.2
-        version: 16.6.1
       esm:
         specifier: ^3.2.25
         version: 3.2.25
@@ -75,6 +66,15 @@ importers:
       ts-mocha:
         specifier: ^10.0.0
         version: 10.1.0(mocha@10.8.2)
+      ts-node:
+        specifier: ^10.9.1
+        version: 10.9.2(@types/node@18.19.130)(typescript@5.9.3)
+      tslib:
+        specifier: ^2.8.1
+        version: 2.8.1
+      typescript:
+        specifier: ^5.0.0
+        version: 5.9.3
 
 packages:
 
